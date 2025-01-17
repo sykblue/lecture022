@@ -10,5 +10,10 @@ public class HellowController {
 	public ResponseEntity<String>HelloWorld(){
 		return ResponseEntity.ok("Hello World");
 	}
+	
+	@GetMapping("test-world")
+	public ResponseEntity<String>TestWorld(){
+		return ResponseEntity.ok("test World");
+	}
 
 }
