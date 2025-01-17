@@ -15,10 +15,5 @@ public class HellowController {
 	public ResponseEntity<String>TestWorld(){
 		return ResponseEntity.ok("test World");
 	}
-	
-	@GetMapping("as-world")
-	public ResponseEntity<String>as(){
-		return ResponseEntity.ok("test World");
-	}
 
 }
