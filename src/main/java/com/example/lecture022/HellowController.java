@@ -16,4 +16,10 @@ public class HellowController {
 		return ResponseEntity.ok("test World");
 	}
 
+	
+	@GetMapping("han-world")
+	public ResponseEntity<String>ham(){
+		return ResponseEntity.ok("ham World");
+	}
+
 }
